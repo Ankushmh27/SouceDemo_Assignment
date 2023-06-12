@@ -1,0 +1,6 @@
+DRIVE : https://drive.google.com/drive/folders/1oNn6ZVr2XyDM83Zf5JqA4Hlbx7zhZMg0?usp=sharing
+
+GitHub : 
+https://github.com/Ankushmhala2/SouceDemo_Assignment.git
+
+TestNG_emailableReport : file:///C:/Users/Ankush%20Mhala/git/repository3/com.qa.soucedemo/test-output/emailable-report.html
