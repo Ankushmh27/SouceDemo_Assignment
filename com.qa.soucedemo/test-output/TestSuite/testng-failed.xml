@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.SauceDemoTest.SauceDemoTestCases">
+        <methods>
+          <include name="ItemCheckoutTest"/>
+          <include name="SoppingCartTest"/>
+          <include name="TearDown"/>
+          <include name="FillYourInfoTest"/>
+          <include name="Setup"/>
+          <include name="AddToCartTest"/>
+          <include name="LogoutTest"/>
+          <include name="FilterItemsTest"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.SauceDemoTest.SauceDemoTestCases -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

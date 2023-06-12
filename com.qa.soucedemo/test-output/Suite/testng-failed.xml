@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.SauceDemoCrossBrowserScript.SouceDemoCrossBrowserTest">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="LogoutTest"/>
+        </methods>
+      </class> <!-- com.SauceDemoCrossBrowserScript.SouceDemoCrossBrowserTest -->
+      <class name="com.SauceDemoTest.SauceDemoTestCases">
+        <methods>
+          <include name="ItemCheckoutTest"/>
+          <include name="SoppingCartTest"/>
+          <include name="Setup"/>
+          <include name="FillYourInfoTest"/>
+          <include name="AddToCartTest"/>
+          <include name="LogoutTest"/>
+          <include name="FilterItemsTest"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.SauceDemoTest.SauceDemoTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
